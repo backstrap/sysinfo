@@ -1,10 +1,13 @@
-[ABANDONED] SysInfo
+SysInfo
 ===================
-PHP library that can be used to fetch system information like CPU usage, load averages and memory usage (amongst other features). The library was made to accomodate a PHPUnit test listener, so the featureset is pretty slim, and only works on Linux. Feel free to play around with it and send a PR if you want to add some features (unit tests required).
+PHP library that can be used to fetch system information like CPU usage, load averages and memory usage (amongst other features). The library was made to accomodate a PHPUnit test listener, so the featureset is pretty slim, and only works on Linux.
+
+I forked this from christeredvartsen/sysinfo for my own use after that package was abandoned.
+Use at your own risk.
 
 Installation
 ------------
-To use this library you can specify `christeredvartsen/sysinfo` in your [composer.json](http://getcomposer.org) file.
+To use this library you can specify `backstrap/sysinfo` in your [composer.json](http://getcomposer.org) file.
 
 Usage
 -----
